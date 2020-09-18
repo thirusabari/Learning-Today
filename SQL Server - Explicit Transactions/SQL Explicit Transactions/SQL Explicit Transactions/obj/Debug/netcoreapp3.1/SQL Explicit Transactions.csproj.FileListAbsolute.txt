@@ -1,0 +1,4 @@
+C:\GitHub\Learning-Today\SQL Server - Explicit Transactions\SQL Explicit Transactions\SQL Explicit Transactions\bin\Debug\netcoreapp3.1\SQL Explicit Transactions.exe
+C:\GitHub\Learning-Today\SQL Server - Explicit Transactions\SQL Explicit Transactions\SQL Explicit Transactions\obj\Debug\netcoreapp3.1\SQL Explicit Transactions.csprojAssemblyReference.cache
+C:\GitHub\Learning-Today\SQL Server - Explicit Transactions\SQL Explicit Transactions\SQL Explicit Transactions\obj\Debug\netcoreapp3.1\SQL Explicit Transactions.AssemblyInfoInputs.cache
+C:\GitHub\Learning-Today\SQL Server - Explicit Transactions\SQL Explicit Transactions\SQL Explicit Transactions\obj\Debug\netcoreapp3.1\SQL Explicit Transactions.AssemblyInfo.cs

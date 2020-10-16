@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Learning TimeZone/1.0.0": {
+        "runtime": {
+          "Learning TimeZone.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Learning TimeZone/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

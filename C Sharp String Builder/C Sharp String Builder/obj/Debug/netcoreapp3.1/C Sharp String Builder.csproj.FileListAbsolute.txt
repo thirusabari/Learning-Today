@@ -1,0 +1,13 @@
+C:\GitHub\Learning-Today\C Sharp String Builder\C Sharp String Builder\bin\Debug\netcoreapp3.1\C Sharp String Builder.exe
+C:\GitHub\Learning-Today\C Sharp String Builder\C Sharp String Builder\bin\Debug\netcoreapp3.1\C Sharp String Builder.deps.json
+C:\GitHub\Learning-Today\C Sharp String Builder\C Sharp String Builder\bin\Debug\netcoreapp3.1\C Sharp String Builder.runtimeconfig.json
+C:\GitHub\Learning-Today\C Sharp String Builder\C Sharp String Builder\bin\Debug\netcoreapp3.1\C Sharp String Builder.runtimeconfig.dev.json
+C:\GitHub\Learning-Today\C Sharp String Builder\C Sharp String Builder\bin\Debug\netcoreapp3.1\C Sharp String Builder.dll
+C:\GitHub\Learning-Today\C Sharp String Builder\C Sharp String Builder\bin\Debug\netcoreapp3.1\C Sharp String Builder.pdb
+C:\GitHub\Learning-Today\C Sharp String Builder\C Sharp String Builder\obj\Debug\netcoreapp3.1\C Sharp String Builder.csprojAssemblyReference.cache
+C:\GitHub\Learning-Today\C Sharp String Builder\C Sharp String Builder\obj\Debug\netcoreapp3.1\C Sharp String Builder.AssemblyInfoInputs.cache
+C:\GitHub\Learning-Today\C Sharp String Builder\C Sharp String Builder\obj\Debug\netcoreapp3.1\C Sharp String Builder.AssemblyInfo.cs
+C:\GitHub\Learning-Today\C Sharp String Builder\C Sharp String Builder\obj\Debug\netcoreapp3.1\C Sharp String Builder.csproj.CoreCompileInputs.cache
+C:\GitHub\Learning-Today\C Sharp String Builder\C Sharp String Builder\obj\Debug\netcoreapp3.1\C Sharp String Builder.dll
+C:\GitHub\Learning-Today\C Sharp String Builder\C Sharp String Builder\obj\Debug\netcoreapp3.1\C Sharp String Builder.pdb
+C:\GitHub\Learning-Today\C Sharp String Builder\C Sharp String Builder\obj\Debug\netcoreapp3.1\C Sharp String Builder.genruntimeconfig.cache

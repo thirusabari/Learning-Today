@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Text;
 namespace C_Sharp_String_Builder
 {
@@ -40,6 +41,10 @@ namespace C_Sharp_String_Builder
 			Sb.AppendLine();
 			//AppendLine Method
 			Sb.AppendLine(" End User Agreement");
+
+			//string date = '2020-10-17 23:08:25.6285178 +00:00';
+			//var dateformat = CultureInfo.InvariantCulture.DateTimeFormat.ShortDatePattern;
+			//Sb.AppendFormat(dateformat, "2020-10-17 23:08:25.6285178 +00:00");
 
 			Console.WriteLine();
 			Console.WriteLine(" {0} = {1} (String Builder Length)", Sb.ToString(), Sb.Length);

@@ -19,10 +19,12 @@ namespace Learning_TimeZone
 			var localDateTimeOffset = DateTimeOffset.Now;
 			Console.WriteLine("Local DateTimeOffset = {0}", localDateTimeOffset);
 			Console.WriteLine();
+			
 			var utcDateTimeOffset = DateTimeOffset.UtcNow;
 			Console.WriteLine("UTC DateTimeOffset = {0}", utcDateTimeOffset);
 			Console.WriteLine();
 			Console.WriteLine();
+			
 
 			Console.WriteLine("Local And Utc OffSet From DateTimeOffSetObject");
 			var localOffSet = localDateTimeOffset.Offset;
@@ -32,7 +34,16 @@ namespace Learning_TimeZone
 			Console.WriteLine("UTC Offset = {0}", utcOffset);
 			Console.WriteLine();
 			Console.WriteLine();
-
+			Console.WriteLine();
+			var currentOffset = DateTimeOffset.Now.Offset;
+			
+			
+			Console.WriteLine("The Current Offset={0}:{1}", currentOffset.Hours,currentOffset.Minutes);
+			Console.WriteLine();
+			Console.WriteLine();
+			Console.WriteLine("TImeSpan with 0,0,0={0}", new TimeSpan(0, 0, 0));
+			Console.WriteLine();
+			Console.WriteLine();
 			Console.WriteLine("Local Time to UTC Conversion");
 			DateTime CreatedDate = new DateTime(2020, 10, 14, 17, 46, 01, 150);
 			Console.WriteLine("CreatedDate = {0}", CreatedDate);

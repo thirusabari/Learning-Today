@@ -1,0 +1,96 @@
+----------------------------------------------------------------------------------------------------------------------------
+Useful Link: https://blog.logrocket.com/how-browser-rendering-works-behind-the-scenes-6782b0e8fb10/
+----------------------------------------------------------------------------------------------------------------------------
+How Browser Engine Works?
+
+1. HTML || CSS || JS ==> Bytes of Data
+2. The Raw bytes of data converted to the form which browser will understands
+3. Raw Bytes of Data ==> Characters 
+    (This conversion is done based on the character encoding of the HTML file)
+4. Characters ==> Tokens
+5. Tokens ===> Node
+6. Node ==> DOM
+7. CSS bytes ==> Characters ==> Tokens ==> Node ==> CSSOM (CSS Object Model)
+----------------------------------------------------------------------------------------------------------------------------
+
+What are Tokens?
+
+ A Bunch of Characters in a text file does not do the browser engine a lot of good. 
+ Without this tokenization process, 
+ the bunch of characters will result in a bunch of meaningless text, ., 
+ HTML code --- and that doesn't produce an actual website.
+
+ Conceptually, you may see a token as some sort of data structure that contains information
+ about a certain HTML tag. Essentially, an HTML file is broken down into small units of parsing called tokens. 
+ This is how the browser engine begins to understand what you've written. 
+ 
+----------------------------------------------------------------------------------------------------------------------------
+What is mean by Node?
+
+ After the tokenization is done, the tokens are then converted into nodes. 
+ A Node as a separate entity within the document object tree. 
+----------------------------------------------------------------------------------------------------------------------------
+
+What is mean by DOM?
+
+ The nodes are then linked in a tree data strcuture known as the DOM. The DOM establishes the parent-child
+ relationships, adjacent siblings relationships, etc. The relationship between every
+ node is established in this DOM object.
+
+----------------------------------------------------------------------------------------------------------------------------
+
+What is mean by Render Tree?
+
+ The DOM and CSSOM tree structures are two independent structures. The DOM contains all the information about the 
+ page's HTML element's relationships, while the CSSOM contains information on how the elements are styled. OK, the browser
+ now combines the DOM and CSSOM trees into something called a render tree. 
+ 
+ The render tree contains information on all visible DOM content on the page and all the required CSSOM informations for the
+ different nodes. Note that if an element has been hidden by CSS (e.g., by using "display:none"), the node will not
+ be represented in the render tree. 
+
+ The hidden element will be present in the DOM but not the render tree. This is because the render tree combines information
+ from both the DOM and the CSSOM, so it knows not to include a hidden element in the tree. 
+ 
+----------------------------------------------------------------------------------------------------------------------------
+ 
+What is mean by Layout (or) ReFlow?
+ 
+ With the render tree constructed, the next step is to perform the layout. Right now, we have the content and style information
+ of all visible content on the screen, but we haven't actually rendered anything to the screen. 
+ 
+ Well, first, the browser has to calculate the exact size and position of each object on the page. It's like passing on the 
+ content and style information of all elements to be rendered on a page to a talented mathematician. This mathematician then
+ figures out the exact position and size of each element with the browser viewport. 
+ 
+ This layout step (which you'll sometimes hear called the "reflow" step) takes into consideration the content and style
+ received from the DOM and CSSOM and does all the necessary layout computing. 
+
+----------------------------------------------------------------------------------------------------------------------------
+
+What happens to this flow once we introduce JavaScript?
+
+  Whenever the browser encounters a "script" tag, the DOM construction is paused! The entire DOM construction process
+  is paused! The entire DOM construction process is halted until the script finishes executing. 
+
+----------------------------------------------------------------------------------------------------------------------------
+
+The Location of your Script Matters.
+
+----------------------------------------------------------------------------------------------------------------------------
+What happens when the parser encounters a "script" tag but the CSSOM isn't ready yet?
+
+ The Javascript execution will be halted until the CSSOM is ready.
+----------------------------------------------------------------------------------------------------------------------------
+What is mean by Critical Rendering Path (CRP)?
+
+  The steps taken between receiving the HTML, CSS, and JS bytes and turning them into rendered pixels on the screen.
+  This entire process is called critical rendering path (CRP). Optimizing your websites for performance is all about
+  optimizing the CRP. A well-optimized site should undergo progressive rendering and not have the entire process blocked. 
+ 
+----------------------------------------------------------------------------------------------------------------------------
+How to Track your Applications is render?
+
+  Use the "try LogRocket" : https://logrocket.com/signup/
+
+----------------------------------------------------------------------------------------------------------------------------

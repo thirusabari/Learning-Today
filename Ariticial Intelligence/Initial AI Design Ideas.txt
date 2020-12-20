@@ -1,0 +1,4 @@
+Initial AI Design Ideas:
+
+1. Microsoft Windows Speech Recognition
+2. Voice XML Commands

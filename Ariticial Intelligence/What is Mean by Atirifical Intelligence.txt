@@ -1,0 +1,129 @@
+You Tube Channel: Edureka
+-------------------------------------------------------------------------------------------------------------------------------
+Video Link: 
+https://www.youtube.com/watch?v=JMUxmLyrhSk&list=PL0lrS_zgvijTXoDn5boUZDALSMEqtlJOt&index=1&ab_channel=edureka%21
+-------------------------------------------------------------------------------------------------------------------------------
+What is mean by Aritificial Intelligence?
+1. TensorFlow (It is perfect for Neural Networks and Machine Learning)
+2. Neural Networks
+3. Deep Learning
+4. Supervisioned Learning 
+5. Natural Language Processing
+6. Machine Learning
+7. Classifications
+8. Clusters
+9. Algorithm
+10. Python (Contains Natural Language Library Toolkit, ect..)
+11. Artificial Neurons
+12. Reinforcement Learning
+13. Test data
+14. Label Data
+15. Turing Test
+16. Weak AI
+17. Image Processing, Facial Recoginition with Neural Network Concepts
+18. Protactors
+19. Root Node
+20. Prediction Variables
+21. Branches
+22. Q Matrix Algorithm
+23. KNN Algorithm (or) K-Nearest Neighbour Alogrithm (SuperVised Learning) 
+24. Error
+25. Weight Variable
+26. Text Mining
+27. Google Automatic Search, Google Spam Detection, Netflix user evaluation, Gmail - Email Classification (Text Mining and NLP)
+28. Sentimental Analysis (Facebook, Twitter, etc,..) [NLP]
+29. Chatbots (used for find the customer frustration) [NLP]
+30. Speech Recognition (Ex: Alexa, Siri, Google Assistant, Cortana, etc..) [NLP]
+31. Machine Translation (Ex: Google Translation)
+Few Applications of NLP:
+ A)Spell Checking
+ B)Information Extraction
+ C)Keyword Search
+ D)Advertisment Matching
+32. Tokenization
+33. Stemming
+34. Morphological Analysis (for words)
+35. Lemmatization
+36. Stop Words
+37. Document Term Matrix (or) Frequency Matrix
+38. Data Splicing
+39. Naive Bayes Classifier
+40. Perceptrons
+41. Back Propagation Method
+42. Open AI (Game Industry - DOTA 2 Video Game)
+43. Intra Class Similarity
+44. Decision Tree (Supervised Learning)
+45. K-Means Clustering (UnSupervised Learning)
+46. Biological Neuron
+47. Nutshell
+
+
+Sample Syallbus from Edureka for the Machine Learning Engineer Course:
+1. Python programming 
+    A) Sequences and File Operations
+    B) Functions and OOPs
+    C) NumPy & Pandas
+    D) Modules and Handling Expectations
+    E) GUI Programming
+    F) MatPlotLib & NumPy
+    G) Data Visualization & Manipulation
+
+2. Machine Learning with Python
+    A) Statistics
+    B) Supervised Alogirthms
+    C) Time Series
+    D) UnSupervised Algorithms
+
+3. Graphical Models
+    A) Interface
+    B) Bayesian & Markov's Networks
+    C) Decision Making
+    D) Graph Theory
+    
+4. Reinforcement Learning
+    A) Bandit Algorithms
+    B) Temporal Difference Methods
+    C) Dynamic Programming
+    D) Policy Gradient Methods
+    E) Value Function
+    F) Bellman Equation
+    G) Value Iteration
+
+5. NLP with Python
+    A) Tokenization
+    B) Stemming
+    C) POS Tagging
+    D) Lemmetization
+    E) Syntax Tree Parsing
+    F) Named Entity Recognition
+
+6. AI & Deep Learning with Tensor Flow
+   A) Gradient Descent
+   B) Tensor Flow
+   C) Deep Learning
+   D) Softmax Function
+   E) CNN
+   F) RNN
+   G) LSTM
+   H) Keras
+   I) Autoencoder Neural Networks
+   J) RBM
+
+7. Python Spark using PySpark 
+   A) HDFS
+   B) Spark RDD
+   C) Spark SQL
+   D) Spark ML Library
+   E) Spark Streaming
+
+Sample Jobs in AI:
+1. Machine Learning Engineer
+2. AI Engineer
+3. Data Scientist
+4. Data & Analytics Manager
+5. NLP Engineer
+6. Data Engineer
+
+Other Learning Path with Python:
+1. Python Scripting
+2. Python Statistics for Data Science (Descriptive Statistics, Inferential Statistics)

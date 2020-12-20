@@ -1,0 +1,63 @@
+You Tube Video Link : https://www.youtube.com/watch?v=x4q86IjJFag&ab_channel=TraversyMedia
+
+
+Console Tab Tips:
+$0
+$1
+console.log
+console.log(document)
+console.error
+console.warn
+console.table ([{name:"Thirunavukkarasu",email:"gtarasu199@gmail.com",age:28}])
+console.clear
+console.group('Say Hello')
+console.log('Hello World')
+console.log('Hello World')
+console.groupEnd('Hello End')
+
+console.time('For Loop')
+for(var i=0;i<2000; i++){
+console.log(i)
+}
+console.timeEnd('loop')
+
+console.assert(5>2,{"message":"greater"},"x":5,"y":2);
+
+showTimeStamps
+Preserve Log
+Select COntext only
+user messages nly
+
+Add Snippet/ Remove Snippet
+Control+shift+p - run command
+
+document.querySelector('button').addEventListener('click',customFunction);
+
+function customFunction(){
+console.log("Button click called");
+}
+
+var xhr=new XMLHttpRequest
+
+xhr.onlead=function(){
+}
+
+this.Status==200
+
+localStorage.setItem(key,value)
+localStorage.getItem(Key);
+console.log(localStorage.getItem(Key));
+localStorage.clear(Key)
+
+sessionStorage.setItem(Key,Value);
+
+
+document.cookie="username=Thiru Arasu";
+cookies expiry range
+
+Audits Tab - Run Audit
+
+codeskillet.com
+
+
+

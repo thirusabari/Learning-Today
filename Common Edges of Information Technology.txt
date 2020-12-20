@@ -1,0 +1,13 @@
+Common Edges of Information Technology:
+
+1. Artificial Intelligence
+2. Browser Session
+3. local Storage
+4. Cookies
+5. Authentication
+6. Request/Data Encryption
+7. performance
+8. Attractive ui
+9. Cloud Storage
+10. Azure Deployment
+  
